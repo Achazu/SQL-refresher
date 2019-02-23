@@ -43,6 +43,3 @@ SELECT title AS title, author_lname AS author_lname FROM books ORDER BY author_l
 
 SELECT UPPER(CONCAT('my favourite author is ', author_fname, ' ', author_lname, '!')) AS yell FROM books ORDER BY author_lname;
 
-SELECT * FROM books;
-
-SELECT COUNT(DISTINCT author_lname) FROM books;
